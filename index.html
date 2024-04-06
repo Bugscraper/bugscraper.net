@@ -9,8 +9,9 @@
 		<meta name="keywords" content="bugscrapper, video game, gaming, indie game"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/png" href="image/icon.png">
-
-		<link rel="stylesheet" href="style.css">
+		
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/slideshow.css">
 	</head>
 
 	<body>
@@ -26,8 +27,9 @@
 				</p>
 			</header>
 			<hr class="hr-1">
-			<main>
-				<div align="center">
+			<main align="center">
+
+				<div>
 					<!-- <h2>Rise to the top of a bug-infested tower</h2> -->
 					<p class="shadow-red big">
 						Welcome to the bugscraper.
@@ -38,12 +40,51 @@
 					<p class="shadow-yellow big">
 						Your mission: stopping them before it is too late!
 					</p>
+		
 				</div>
+				<hr class="hr-2">
+				<div>
+					
+					<h2>Screenshots</h2>
+					<div class="slideshow-container">
+						<div class="slide">
+							<img src="image/screenshot/screenshot_1.png" style="width:100%">
+						</div>
+					
+						<div class="slide">
+							<img src="image/screenshot/screenshot_2.png" style="width:100%">
+						</div>
+					
+						<div class="slide">
+							<img src="image/screenshot/screenshot_3.png" style="width:100%">
+						</div>
+					
+						<a class="prev" onclick="plusSlides(-1)">
+							<img src="image/icon_left.svg">
+						</a>
+						<a class="next" onclick="plusSlides(1)">
+							<img src="image/icon_right.svg">
+						</a>
+					</div>
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+				</div>
+
 			</main>
-			<hr class="hr-2">
+			<hr class="hr-3">
 			<footer>
-				footer
+				<div align="center">
+					<p>
+						A game by <a href="https://yolwoocle.com">Léo Bernard (a.k.a. Yolwoocle)</a> <br>
+						&copy; <script>document.write(new Date().getFullYear())</script> Léo Bernard 
+					</p>
+				</div>
 			</footer>
 		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

@@ -3,7 +3,8 @@
 :root {
     --col-bg-main: #262b44;
     --col-text: white;
-    --col-text-light: #fffa;
+    --col-text-light: #8186a2;
+    --col-text-lighter: #535976;
 }
 
 body{
@@ -34,9 +35,7 @@ a {
 }
 
 hr {
-    /* border: none; */
-    /* color: var(--col-text-light); */
-    border-color: var(--col-text-light);
+    border: 1px solid var(--col-text-lighter);
 
     margin-top: 42px;
     margin-bottom: 42px;
@@ -55,18 +54,21 @@ hr::after {
     position: relative;
     top: -13px;
 }
-
 .hr-1::after {
-    content: '🐛';
+    content: '🐛🐛🐛';
 } 
 .hr-2::after {
-    content: '🐞';
+    content: '🐞🐞🐞';
 }
 .hr-3::after {
-    content: '🐝';
+    content: '🐝🐝🐝';
 }
 .hr-4::after {
-    content: '🐜';
+    content: '🐜🐜🐜';
+}
+
+footer {
+    color: var(--col-text-light)
 }
 
 /* header {
@@ -113,4 +115,36 @@ hr::after {
     display: inline-block;
     -webkit-animation: wave-anim 1s ease-in-out infinite;
             animation: wave-anim 1s ease-in-out infinite;
+}
+
+::selection {
+    background-color: #feae34;
+    color: #FFF;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    display: contents;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    min-width: 100px;
+    border: solid 6px rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    background-clip: content-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
