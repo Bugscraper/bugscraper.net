@@ -1,3 +1,15 @@
+// *** Clone top links to bottom ***
+
+const links = document.getElementById('links-top');
+const clonedLinks = links.cloneNode(true);
+clonedLinks.id = "cloned-links-top"
+
+const target = document.getElementById('links-bottom');
+target.appendChild(clonedLinks)
+
+
+// *** Slideshow ***
+
 let slideIndex = 1;
 updateSlides();
 

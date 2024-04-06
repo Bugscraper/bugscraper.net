@@ -8,126 +8,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="row-outer">
-      <div class="container">
-        <div class="heading"><h1>Responsive Css Grid Gallery</h1></div>
+    <img 
+    src="http://placehold.jp/3840x3840.png"
 
-        <div class="grid-gallery">
-          <div class="item item1"></div>
-          <div class="item item2"></div>
-          <div class="item item3"></div>
-          <div class="item item4"></div>
-          <div class="item item5"></div>
-          <div class="item item6"></div>
-        </div>
-      </div>
-    </div>
+    srcset="http://placehold.jp/3840x3840.png 3840w,
+            http://placehold.jp/2048x2048.png 2048w,
+            http://placehold.jp/1920x1920.png 1920w,
+            http://placehold.jp/1200x1200.png 1200w,
+            http://placehold.jp/1080x1080.png 1080w,
+            http://placehold.jp/828x828.png 828w,
+            http://placehold.jp/750x750.png 750w,
+            http://placehold.jp/640x640.png 640w"
+
+     sizes="(max-width: 480px) 100vw, 
+            (max-width: 1024px) 50vw, 
+            33vw"
+/>
   </body>
   <style>
-    @import url("https://fonts.googleapis.com/css?family=Lato:300,400|PT+Sans:400,700");
-* {
-  padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-body {
-    background: #f1f2f3;
-}
-.row-outer {
-    padding: 20px 0;
-}
-.heading {
-    text-align: center;
-}
-.container {
-    width: 95%;
-    max-width: 1160px;
-    margin: auto;
-}
-.heading {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 'item1 item1 item2 item3'
-                         'item4 item4 item2 item5'
-                         'item4 item4 item2 item6';
-    grid-gap: 10px;
-}
-
-.item {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    min-height: 12rem;
-    cursor: pointer;
-    background: red;
-}
-
-.item1 {
-    grid-area: item1;
-    background: #4b00ff url(item1.jpg);
-    background-position: top !important; 
-}
-.item2 {
-    grid-area: item2;
-    background: #4b00ff url(item2.jpg); 
-}
-.item3 {
-    grid-area: item3;
-    background: #4b00ff url(item3.jpg); 
-}
-.item4 {
-    grid-area: item4;
-    background: #4b00ff url(item4.jpg); 
-}
-.item5 {
-    grid-area: item5;
-    background: #4b00ff url(item5.jpg);
-}
-.item6 {
-    grid-area: item6;
-    background: #4b00ff url(item6.jpg);
-}
-
-
-@media (max-width: 768px) {
-    .grid-gallery { 
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: "item1 item1 item2"
-                             "item3 item4 item2"
-                             "item5 item6 item2";
-    }
-}
-
-@media (max-width: 620px) {
-    .grid-gallery { 
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "item1 item3"
-                             "item2 item4"
-                             "item2 item5" 
-                             "item2 item6";
-    }
-}
-
-
-@media (max-width: 360px) {
-    .grid-gallery { 
-        grid-template-columns: 1fr;
-        grid-template-areas: "item1"
-                             "item2"
-                             "item3" 
-                             "item4"
-                             "item5"
-                             "item6";
-    }
-    .item2 {
-        background-position: top;
-    }
-}
   </style>
 </html>
