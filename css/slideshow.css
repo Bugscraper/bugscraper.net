@@ -32,40 +32,35 @@
     user-select: none;
 }
 
-/* Position the "next button" to the right */
-.prev {
-    left: 0;
-    border-radius: 0 12px 12px 0;
-}
-.next {
-    right: 0;
-    border-radius: 12px 0 0 12px;
-}
-  
 .prev:hover, .next:hover {
     background-color: #cececebb;
 }
-
 .prev > img, .next > img {
     position: relative;
 }
 
+.prev {
+    left: 0;
+    border-radius: 0 12px 12px 0;
+}
 .prev > img {
-    right: 0px;
+    right: 3px;
     transition: 0.3s ease;
 }
-
-.next > img {
-    left: 0px;
-    transition: 0.3s ease;
-}
-
 .prev:hover > img {
-    right: 5px;
+    right: 8px;
 }
 
+.next {
+    right: 0;
+    border-radius: 12px 0 0 12px;
+}
+.next > img {
+    left: -5px;
+    transition: 0.3s ease;
+}
 .next:hover > img {
-    left: 5px;
+    left: 0px;
 }
 
 .dot {
