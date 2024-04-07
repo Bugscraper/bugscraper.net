@@ -53,21 +53,28 @@ a {
 .link-button {
     padding: 15px;
     margin: 5px;
-
+    
     cursor: pointer;
     font-size: inherit;
     font-style: inherit;
     font-family: inherit;
     color: inherit;
-
+    
     background-color: var(--col-bg-main);
     border: solid var(--col-text-light);
     border-radius: 15px;
+    
+    transition: all 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: var(--col-text-light);
 }
 
 .important-link {
-    background-color: var(--col-text-light);
-
+    background-color: var(--col-text-lighter);
+    border-style: double;
+    border-width: 5px;
 }
 
 /***** hr *****/
