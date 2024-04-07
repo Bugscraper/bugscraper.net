@@ -171,8 +171,8 @@ footer {
 }
 .logo-container > .logo {
     display: inline-block;
-    -webkit-animation: wave-anim 1s ease-in-out infinite;
-            animation: wave-anim 1s ease-in-out infinite;
+    -webkit-animation: wave-anim 3s ease-in-out infinite;
+            animation: wave-anim 3s ease-in-out infinite;
 }
 
 .banner {
@@ -187,6 +187,15 @@ footer {
     top: 0;
 }
 
+@keyframes constantMovement {
+    0%{
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: -30.7692308px 0px;
+    }
+}
+
 .banner-fadeout {    
     z-index: 950;
 
@@ -198,9 +207,11 @@ footer {
     /* border: solid red; */
     
     background-image: url("../image/separator.png");
-    background-size:contain;
+    background-size: 30.7692308px 20px;
     background-repeat: repeat-x;
-    background-position: center top;
+    /* background-position: center top; */
+
+    animation: constantMovement 2s linear infinite;
 }
 
 
