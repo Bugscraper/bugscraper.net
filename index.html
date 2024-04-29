@@ -33,35 +33,42 @@
 
   <body>
     <!-- <img class="banner" src="image/banner_big.png" alt="yah"> -->
-    <div class="banner-container">
+    <div class="banner-container unselectable">
       <img class="banner" src="image/banner.png" alt="Bugscraper logo background">
       <div class="banner-fadeout"></div>
     </div>
     
     <div class="page-content" id="page">
-      <header align="center">
-        <div class="logo-container">
-          <img class="logo" src="image/logo.png" alt="Bugscraper logo">
+      <header align="center" class="unselectable">
+        <div class="logo-container unselectable">
+          <img class="logo float" src="image/logo.png" alt="Bugscraper logo">
         </div>
 
         <div class="links" id="links-top">
+          <div class="bigger flex-center">
+            <img class="float-small" src="image/arrow_left.png" height="40">
+            <a class="link" href="https://store.steampowered.com/app/2957130/Bugscraper/">
+              <button class="link-button important-link padding-l">🎮 Wishlist on Steam</button>
+            </a>
+            <img class="float-small" src="image/arrow_right.png" height="40">
+          </div>
           <div class="big">
             <a class="link" href="https://yolwoocle.itch.io/bugscraper">
-              <button class="link-button important-link">🏪 Play the demo on itch.io</button>
+              <button class="link-button padding-l">🏪 Play the demo on itch.io</button>
             </a>
           </div>
           <div>
             <a class="link" href="https://discord.gg/BAMMwMn2m5">
-              <button class="link-button">🎮 Discord</button>
+              <button class="link-button padding-m">👥 Discord</button>
             </a>
             <a class="link" href="https://twitter.com/yolwoocle_">
-              <button class="link-button">🐦 Twitter</button>
+              <button class="link-button padding-m">🐦 Twitter</button>
             </a>
             <a class="link" href="https://github.com/Yolwoocle/bugscraper">
-              <button class="link-button">😺 GitHub</button>
+              <button class="link-button padding-m">😺 GitHub</button>
             </a>
             <a class="link" href="resources/presskit_v1.zip">
-              <button class="link-button">📰 Press kit</button>
+              <button class="link-button padding-m">📰 Press kit</button>
             </a>
           </div>
         </div>
@@ -105,19 +112,26 @@
         <div>
           
           <h2>Screenshots</h2>
-          <div class="slideshow-container">
+          <div class="slideshow-container unselectable">
             <div class="slide">
-              <img src="image/screenshot/screenshot_1.png" style="width:100%">
+              <img src="image/screenshot/1.png" style="width:100%">
             </div>
-          
             <div class="slide">
-              <img src="image/screenshot/screenshot_2.png" style="width:100%">
+              <img src="image/screenshot/2.png" style="width:100%">
             </div>
-          
             <div class="slide">
-              <img src="image/screenshot/screenshot_3.png" style="width:100%">
+              <img src="image/screenshot/3.png" style="width:100%">
             </div>
-          
+            <div class="slide">
+              <img src="image/screenshot/4.png" style="width:100%">
+            </div>
+            <div class="slide">
+              <img src="image/screenshot/5.png" style="width:100%">
+            </div>
+            <div class="slide">
+              <img src="image/screenshot/6.png" style="width:100%">
+            </div>
+            
             <a class="prev" onclick="plusSlides(-1)">
               <img src="image/icon_left.svg">
             </a>
@@ -125,19 +139,22 @@
               <img src="image/icon_right.svg">
             </a>
           </div>
-          <div style="text-align:center">
+          <div style="text-align:center" class="unselectable">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
           </div>
         </div>
 
         <hr class="hr-4">
 
-        <div id="links-bottom">
+        <div id="links-bottom" class="unselectable">
         </div>
         
-        <br>
+        <br class="">
         <div>
           <b>Contact:</b> <a href="mailto:leo.bernard2015@hotmail.com">&#108eo&#46b&#101rnard2015&#64hotm&#97il&#46com</a>
         </div>
@@ -146,6 +163,9 @@
       <hr class="hr-5">
       <footer>
         <div align="center">
+          <p>
+            <a href="https://github.com/bugscraper/bugscraper.github.io">Source code for this website</a>
+          </p>
           <p>
             &copy; <script>document.write(new Date().getFullYear())</script> <a href="https://yolwoocle.com">Léo Bernard (a.k.a. Yolwoocle)</a>
           </p>

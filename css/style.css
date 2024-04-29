@@ -50,8 +50,14 @@ a {
     text-decoration: none;
 }
 
-.link-button {
+.padding-m {
+    padding: 10px;
+}
+.padding-l {
     padding: 15px;
+}
+
+.link-button {
     margin: 5px;
     
     cursor: pointer;
@@ -122,6 +128,12 @@ footer {
     padding: 
 } */
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .big {
     font-weight: bold;
     font-size: 22px;
@@ -156,6 +168,18 @@ footer {
     }
 }
 
+@-webkit-keyframes wave-anim-small {
+    00% {
+        transform: translateY(-0.2em);
+    }
+    50% {
+        transform: translateY(0.2em);
+    }
+    100% {
+        transform: translateY(-0.2em);
+    }
+}
+
 .logo {
     z-index: 1000;
 
@@ -178,8 +202,14 @@ footer {
 }
 .logo-container > .logo {
     display: inline-block;
+}
+.float {
     -webkit-animation: wave-anim 3s ease-in-out infinite;
             animation: wave-anim 3s ease-in-out infinite;
+}
+.float-small {
+    -webkit-animation: wave-anim-small 3s ease-in-out infinite;
+            animation: wave-anim-small 3s ease-in-out infinite;
 }
 
 .banner {
@@ -221,6 +251,12 @@ footer {
     animation: constantMovement 2s linear infinite;
 }
 
+.unselectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 ::selection {
     background-color: #feae34;
