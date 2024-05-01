@@ -2,7 +2,8 @@
 
 :root {
     --col-bg-main: #262b44;
-    --col-text: white;
+    --col-bg-footer: #181425;
+    --col-text: rgb(239, 239, 239);
     --col-text-light: #8186a2;
     --col-text-lighter: #535976;
 }
@@ -16,10 +17,13 @@ body{
 
     padding: 0px;
     margin: 0px;
+    margin-bottom: 0px;
     
     background-color: var(--col-bg-main);
     color: var(--col-text);
     font-size: 19px;
+
+    overflow-x: hidden;
     /* outline: solid red; */
 }
 
@@ -29,6 +33,8 @@ body{
     
     padding: 20px 20px;
     border: 0;
+    
+    overflow: hidden;
 }
 
 h1, h2, h3{
@@ -83,6 +89,55 @@ a {
     border-width: 5px;
 }
 
+
+.locale-container {
+    display: flex;
+    
+    position: fixed;
+    top:   16px;
+    right: 16px;
+    z-index: 2000;
+
+    padding: 6px;
+}
+
+.locale-container > img {
+    margin-right: 8px;
+    filter: drop-shadow(0px 0px 2px var(--col-bg-main));
+}
+
+.locale-switcher {
+    font-family: "Varela Round", sans-serif;
+    font-style: normal;
+    
+    font-weight: 400;
+
+    width: 120px;
+    height: 30px;
+
+    font-size: 18px;
+    color: var(--col-text);
+    background-color: #535976c0;
+    backdrop-filter: blur(2px);
+
+    border-radius: 15px;
+    border-width: 2px;
+    border: solid var(--col-text-light);
+}
+
+.button-wishlist {
+    max-width: 100%;
+}
+
+.wishlist-container {
+    overflow: hidden;
+    
+}
+
+.wishlist-arrow {
+    /* width: max-content; */
+}
+
 /***** hr *****/
 
 hr {
@@ -118,10 +173,6 @@ hr::after {
 }
 .hr-5::after {
     content: '🪰🪰🪰';
-}
-
-footer {
-    color: var(--col-text-light)
 }
 
 /* header {
@@ -168,15 +219,27 @@ footer {
     }
 }
 
-@-webkit-keyframes wave-anim-small {
+@-webkit-keyframes wave-anim-small-left {
     00% {
-        transform: translateY(-0.2em);
+        transform: translateX(-0.3em);
     }
     50% {
-        transform: translateY(0.2em);
+        transform: translateX(0em);
     }
     100% {
-        transform: translateY(-0.2em);
+        transform: translateX(-0.3em);
+    }
+}
+
+@-webkit-keyframes wave-anim-small-right {
+    00% {
+        transform: translateX(0.3em);
+    }
+    50% {
+        transform: translateX(0em);
+    }
+    100% {
+        transform: translateX(0.3em);
     }
 }
 
@@ -207,9 +270,13 @@ footer {
     -webkit-animation: wave-anim 3s ease-in-out infinite;
             animation: wave-anim 3s ease-in-out infinite;
 }
-.float-small {
-    -webkit-animation: wave-anim-small 3s ease-in-out infinite;
-            animation: wave-anim-small 3s ease-in-out infinite;
+.float-small-left {
+    -webkit-animation: wave-anim-small-left 3s ease-in-out infinite;
+            animation: wave-anim-small-left 3s ease-in-out infinite;
+}
+.float-small-right {
+    -webkit-animation: wave-anim-small-right 3s ease-in-out infinite;
+            animation: wave-anim-small-right 3s ease-in-out infinite;
 }
 
 .banner {
@@ -251,12 +318,55 @@ footer {
     animation: constantMovement 2s linear infinite;
 }
 
+.dark-fadeout {
+    z-index: 950;
+
+    position: absolute;
+    left: 0;
+    /* top: 281px; */
+    width: 100vw;
+    height: 20px;
+    /* border: solid red; */
+    
+    background-image: url("../image/separator_dark.png");
+    background-size: 30.7692308px 20px;
+    background-repeat: repeat-x;
+    /* background-position: center top; */
+
+    animation: constantMovement 2s linear infinite;
+    /* background-image: url("../image/separator-dark.png"); */
+}
+
+footer {
+    background-color: var(--col-bg-footer);
+    color: var(--col-text-lighter);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 0;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* outline: yellow solid 1px; */
+}
+footer * {
+    margin: 4px;
+    /* outline: red solid 1px; */
+}
+footer a {
+    color: var(--col-text-light);
+}
+
 .unselectable {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
+
+/********************************************/
 
 ::selection {
     background-color: #feae34;
