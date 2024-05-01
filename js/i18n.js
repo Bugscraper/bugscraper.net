@@ -41,36 +41,61 @@ const translations = {
         "contact": "Contact :",
         "footer-source": "Code source de ce site web",
         "footer-author": "Léo Bernard (Yolwoocle)"
-    }
+    },
 };
 
-const userLanguage = (navigator.language || navigator.userLanguage).slice(0,2);
-// alert(userLanguage);
 const defaultLocale = "en";
 let locale;
 
 document.addEventListener("DOMContentLoaded", () => {
-    let localeToSet;
-    if (userLanguage in translations) {
-        localeToSet = userLanguage;
-    } else {
-        localeToSet = defaultLocale;      
-    }
+    let localeToSet = getDefaultLocale();
+    
+    // alert(localeToSet);
+    setLocale(localeToSet);
     bindLocaleSwitcher(localeToSet);
 });
+
+function getDefaultLocale() {
+    if (typeof(Storage) !== "undefined") {
+        const savedLocale = localStorage.getItem("locale")
+        if (savedLocale !== null && (savedLocale in translations)) {
+            return savedLocale
+        }
+    }
+
+    const userLanguage = (navigator.language || navigator.userLanguage).slice(0,2);
+    if (userLanguage in translations) {
+        return userLanguage;
+    } 
+    return defaultLocale;      
+}
 
 function setLocale(newLocale) {
     if (newLocale == locale)  {
         return;
     }
+    if ((newLocale in translations) === false) {
+        return;
+    }
     locale = newLocale;
     translatePage();
+    saveLocale();
 }
 
 function translatePage() {
     document
         .querySelectorAll("[data-i18n-key]")
         .forEach(translateElement);
+}
+
+function saveLocale() {
+    // Check browser support
+    if (typeof(Storage) !== "undefined") {
+        // Store
+        localStorage.setItem("locale", locale);
+    } else {
+        alert("Sorry, your browser does not support Web Storage...");
+    }
 }
 
 function translateElement(element) {
