@@ -48,6 +48,11 @@ a {
   	text-decoration-color: var(--col-text-light);
 }
 
+.center {
+    align-content: center;
+    text-align: center;
+}
+
 .links > a {
     text-decoration: none;
 }

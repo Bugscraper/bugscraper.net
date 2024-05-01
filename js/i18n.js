@@ -44,12 +44,19 @@ const translations = {
     }
 };
 
+const userLanguage = (navigator.language || navigator.userLanguage).slice(0,2);
+// alert(userLanguage);
 const defaultLocale = "en";
 let locale;
 
 document.addEventListener("DOMContentLoaded", () => {
-    setLocale(defaultLocale);
-    bindLocaleSwitcher(defaultLocale);
+    let localeToSet;
+    if (userLanguage in translations) {
+        localeToSet = userLanguage;
+    } else {
+        localeToSet = defaultLocale;      
+    }
+    bindLocaleSwitcher(localeToSet);
 });
 
 function setLocale(newLocale) {

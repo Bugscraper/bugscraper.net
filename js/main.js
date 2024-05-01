@@ -1,5 +1,6 @@
-// *** Slideshow ***
+console.log(navigator.language)
 
+// *** Slideshow ***
 let slideIndex = 1;
 updateSlides();
 
