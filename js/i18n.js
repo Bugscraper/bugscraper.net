@@ -77,7 +77,6 @@ function translateElement(element) {
 // the page
 function bindLocaleSwitcher(initialValue) {
     const switcher = document.querySelector("[data-i18n-switcher]");
-    console.log(switcher)
     switcher.value = initialValue;
     switcher.onchange = (e) => {
         // Set the locale to the selected option[value]

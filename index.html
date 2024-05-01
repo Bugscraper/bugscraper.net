@@ -38,71 +38,80 @@
     </div>
     
     <div class="page-content" id="page">
-      <header align="center" class="unselectable">
+      <header align="center" class="unselectable">        
         <div class="logo-container unselectable">
           <img class="logo float" src="image/logo.png" alt="Bugscraper logo">
         </div>
 
+        <div class="locale-container">
+          <img src="image/language.svg">
+          <select data-i18n-switcher class="locale-switcher">
+            <option value="en">🍵 English</option>
+            <option value="fr">🥖 French</option>
+          </select>
+        </div>
+
         <div class="links" id="links-top">
-          <div class="bigger flex-center">
-            <img class="float-small" src="image/arrow_left.png" height="40">
+          <div class="bigger flex-center wishlist-container">
+            <img class="float-small-left wishlist-arrow" src="image/arrow_left.png" height="40">
             <a class="link" href="https://store.steampowered.com/app/2957130/Bugscraper/">
-              <button class="link-button important-link padding-l">🐛 Wishlist on Steam</button>
+              <button data-i18n-key="button-steam" class="button-wishlist link-button important-link padding-l">🐛 Wishlist on Steam</button>
             </a>
-            <img class="float-small" src="image/arrow_right.png" height="40">
+            <img class="float-small-right wishlist-arrow" src="image/arrow_right.png" height="40">
           </div>
           <div class="big">
             <a class="link" href="https://yolwoocle.itch.io/bugscraper">
-              <button class="link-button padding-l">🏪 Play the demo on itch.io</button>
+              <button data-i18n-key="button-itchio" class="link-button padding-l">🏪 Play the demo on itch.io</button>
             </a>
           </div>
           <div>
             <a class="link" href="https://discord.gg/BAMMwMn2m5">
-              <button class="link-button padding-m">🎮 Discord</button>
+              <button data-i18n-key="button-discord" class="link-button padding-m">🎮 Discord</button>
             </a>
             <a class="link" href="https://twitter.com/yolwoocle_">
-              <button class="link-button padding-m">🐦 Twitter</button>
+              <button data-i18n-key="button-twitter" class="link-button padding-m">🐦 Twitter</button>
             </a>
             <a class="link" href="https://github.com/Yolwoocle/bugscraper">
-              <button class="link-button padding-m">😺 GitHub</button>
+              <button data-i18n-key="button-github" class="link-button padding-m">😺 GitHub</button>
             </a>
             <a class="link" href="resources/presskit_v2.zip">
-              <button class="link-button padding-m">📰 Press kit</button>
+              <button data-i18n-key="button-press" class="link-button padding-m">📰 Press kit</button>
             </a>
           </div>
         </div>
-
       </header>
+
+      
       <hr class="hr-1">
       <main align="center">
 
         <div>
           <!-- <h2>Rise to the top of a bug-infested tower</h2> -->
-          <p class="shadow-red bigger">
+          <p data-i18n-key="desc-1" class="shadow-red bigger">
             Welcome to the bugscraper.
           </p>
-          <p class="shadow-blue bigger">
+          <p data-i18n-key="desc-2" class="shadow-blue bigger">
             Here, pests all around the world come to gather. 
           </p>
-          <p class="shadow-yellow bigger">
+          <p data-i18n-key="desc-3" class="shadow-yellow bigger">
             Your mission: stopping them before it is too late!
           </p>
     
         </div>
         <hr class="hr-2">
         <div align="left">
-          <p>
+          <p data-i18n-key="desc-long-1">
             🐛 In this platformer shooter, you will battle waves of enemies in an elevator as they 
             come for your skin (or rather, exoskeleton).
           </p>
-          <p>
+          <p data-i18n-key="desc-long-2">
             🐜 You take the role of <b>Mio</b>, a courageous ant, trying to stop the employees of a 
             bug-filled skyscraper from corrupting the world with a deadly mushroom.
           </p>
-          <p>
+          <p data-i18n-key="desc-long-3">
             🐝 Using a wide variety of <b>weapons and upgrades</b>, eliminate them and prepare to battle for the next floor!
           </p>
-          <p>
+          <p data-i18n-key="desc-long-4">
             🐞 Play in <b>solo</b>, or with up to 4 friends in <b>local co-op multiplayer</b>.
           </p>
 
@@ -110,7 +119,7 @@
         <hr class="hr-3">
         <div>
           
-          <h2>Screenshots</h2>
+          <h2 data-i18n-key="screenshot-title">Screenshots</h2>
           <div class="slideshow-container unselectable">
             <div class="slide">
               <img src="image/screenshot/1.png" style="width:100%">
@@ -154,24 +163,28 @@
         </div>
         
         <br class="">
-        <div>
-          <b>Contact:</b> <a href="mailto:leo.bernard2015@hotmail.com">&#108eo&#46b&#101rnard2015&#64hotm&#97il&#46com</a>
-        </div>
 
       </main>
-      <hr class="hr-5">
-      <footer>
-        <div align="center">
-          <p>
-            <a href="https://github.com/bugscraper/bugscraper.github.io">Source code for this website</a>
-          </p>
-          <p>
-            &copy; <script>document.write(new Date().getFullYear())</script> <a href="https://yolwoocle.com">Léo Bernard (a.k.a. Yolwoocle)</a>
-          </p>
-        </div>
-      </footer>
+      
     </div>
+    <div class="dark-fadeout"></div>
+    <footer align="center">
+      <p>
+        <b>Contact:</b> <a href="mailto:leo.bernard2015@hotmail.com">&#108eo&#46b&#101rnard2015&#64hotm&#97il&#46com</a>
+      </p>
+      <p>
+        <a data-i18n-key="footer-source" href="https://github.com/bugscraper/bugscraper.github.io">Source code for this website</a>
+      </p>
+      <p>
+        &copy; <script>document.write(new Date().getFullYear())</script> 
+        <a data-i18n-key="footer-author" href="https://yolwoocle.com">
+          Léo Bernard (Yolwoocle)
+        </a> 
+      </p>
+
+    </footer>
 
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/i18n.js"></script>
   </body>
 </html>

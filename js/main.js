@@ -1,13 +1,3 @@
-// *** Clone top links to bottom ***
-
-const links = document.getElementById('links-top');
-const clonedLinks = links.cloneNode(true);
-clonedLinks.id = "cloned-links-top"
-
-const target = document.getElementById('links-bottom');
-target.appendChild(clonedLinks)
-
-
 // *** Slideshow ***
 
 let slideIndex = 1;
@@ -41,3 +31,12 @@ function updateSlides() {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+// *** Clone top links to bottom ***
+
+const links = document.getElementById('links-top');
+const clonedLinks = links.cloneNode(true);
+clonedLinks.id = "cloned-links-top"
+
+const target = document.getElementById('links-bottom');
+target.appendChild(clonedLinks);
