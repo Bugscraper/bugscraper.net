@@ -22,7 +22,7 @@ const translations = {
         "footer-author": "Léo Bernard (Yolwoocle)"
     },
     "fr": {
-        "button-steam": "🐛 Ajoutez à votre liste de souhaits",
+        "button-steam": "🐛 Wishlistez sur Steam",
         "button-itchio": "🏪 Jouez à la démo sur itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
