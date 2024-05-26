@@ -13,7 +13,7 @@ const translations = {
         "desc-2": "Here, pests all around the world come to gather. ",
         "desc-3": "Your mission: stopping them before it is too late!",
         "desc-long-1": "🐜 In this platformer shooter, you take the role of <b>Mio</b>, a courageous ant, trying to stop the employees of a bug-filled skyscraper from corrupting the world with a deadly mushroom.",
-        "desc-long-2": "🐛 You will battle in an elevator waves of enemies as they come for your skin (or rather, exoskeleton) on every floor.",
+        "desc-long-2": "🐛 You will battle waves of enemies in an elevator as they come for your skin (or rather, exoskeleton) on every floor.",
         "desc-long-3": "🐝 Using a wide variety of <b>weapons and upgrades</b>, eliminate them and prepare to battle for the next floor!",
         "desc-long-4": "🐞 Play in <b>solo</b>, or with up to 4 friends in <b>local co-op multiplayer</b>.",
         "screenshot-title": "Screenshots",
