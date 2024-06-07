@@ -29,7 +29,7 @@ const translations = {
     "fr": {
         "language-name": "🥖 Français",
 
-        "button-steam": "🐛 Wishlistez sur Steam",
+        "button-steam": "🐛 Ajoutez à votre liste de souhaits sur Steam",
         "button-itchio": "🏪 Jouez à la démo sur itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
@@ -38,23 +38,23 @@ const translations = {
         "button-email": "✉️ Email", 
         "desc-1": "Bienvenue dans le bugscraper.",
         "desc-2": "Ici se retrouvent des bêtes du monde entier.",
-        "desc-3": "Votre mission : les arrêter avant qu'il ne soit trop tard !",
+        "desc-3": "Votre mission : les arrêter avant qu'il ne soit trop tard&nbsp;!",
         "desc-long-1": "🐜 Dans ce jeu <b>de plateformes et de tir</b>, vous incarnez <b>Mio</b>, une courageuse fourmi, essayant d'empêcher les employés d'un gratte-ciel rempli de bestioles de corrompre le monde avec un champignon mortel.",
         "desc-long-2": "🐛 Vous affronterez dans un ascenseur des vagues d'ennemis qui viendront pour votre peau (ou plutôt, votre exosquelette) à chaque étage.",
-        "desc-long-3": "🐝 À l'aide d'une grande variété <b>d'armes et d'améliorations</b>, éliminez-les et préparez-vous au combat pour l'étage suivant!",
+        "desc-long-3": "🐝 À l'aide d'une grande variété <b>d'armes et d'améliorations</b>, éliminez-les et préparez-vous au combat pour l'étage suivant&nbsp;!",
         "desc-long-4": "🐞 Jouez en <b>solo</b>, ou avec jusqu'à 4 amis en <b>multijoueur local coopératif</b>.",
         "screenshot-title": "Captures",
     
-        "translation-disclaimer": "Les traductions avec (*) ont été réalisées à l'aide d'un modèle d'IA générative. Veuillez me contacter si vous souhaitez m'aider à fournir des traductions faites par des humains !",
+        "translation-disclaimer": "Les traductions avec (*) ont été réalisées à l'aide d'un modèle d'IA générative. Veuillez me contacter si vous souhaitez m'aider à fournir des traductions faites par des humains&nbsp;!",
         "contact": "Contact :",
         "email-disclaimer": "(les réponses peuvent provenir d'une adresse différente)",
         "footer-source": "Code source de ce site web",
         "footer-author": "Léo Bernard (Yolwoocle)"
     },
-    "es": {
+    "es": { // Courtesy of .unit00 for proof-reading 
         "language-name": "🌮 Español (*)",
 
-        "button-steam": "🐛 Añádelo a tu lista de deseos en Steam",
+        "button-steam": "🐛 Añádelo a tu lista de deseados en Steam",
         "button-itchio": "🏪 Juega la demo en itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
@@ -76,7 +76,7 @@ const translations = {
         "footer-source": "Código fuente de este sitio web",
         "footer-author": "Léo Bernard (Yolwoocle)"
     },
-    "de": {
+    "de": { // courtesy of madbyte for proof-reading
         "language-name": "🍺 Deutsch (*)",
 
         "button-steam": "🐛 Zur Wunschliste auf Steam hinzufügen",
@@ -150,6 +150,158 @@ const translations = {
         "email-disclaimer": "(as respostas podem vir de um endereço diferente)",
         "footer-source": "Código-fonte deste site",
         "footer-author": "Léo Bernard (Yolwoocle)"
+    },
+    
+    // courtesy of keyslam for proof-reading
+    "nl": {
+        "language-name": "🍟 Nederlands (*)",
+
+        "button-steam": "🐛 Zet op verlanglijst op Steam",
+        "button-itchio": "🏪 Speel de demo op itch.io",
+        "button-discord": "🎮 Discord", 
+        "button-twitter": "🐦 Twitter", 
+        "button-github": "😺 GitHub", 
+        "button-press": "📰 Perskit",
+        "button-email": "✉️ Email",
+        "desc-1": "Welkom bij de bugscraper.",
+        "desc-2": "Hier komen plagen van over de hele wereld samen.",
+        "desc-3": "Je missie: stop ze voordat het te laat is!",
+        "desc-long-1": "🐜 In deze platform shooter speel je als <b>Mio</b>, een moedige mier, die probeert te voorkomen dat de werknemers van een met insecten gevuld hoog gebouw de wereld corrupt maken met een dodelijke paddenstoel.",
+        "desc-long-2": "🐛 Je zult ronden van vijanden bevechten in een lift terwijl ze op elke verdieping op je huid (of beter gezegd, exoskelet) zitten.",
+        "desc-long-3": "🐝 Gebruikmakend van een grote verscheidenheid aan <b>wapens en upgrades</b>, elimineer ze en bereid je voor op het gevecht op de volgende verdieping!",
+        "desc-long-4": "🐞 Speel <b>solo</b> of met maximaal 4 vrienden in <b>lokale coöperatieve multiplayer</b>.",
+        "screenshot-title": "Screenshots",
+
+        "translation-disclaimer": "Vertalingen met (*) zijn gemaakt met behulp van een generatief AI-model. Neem contact op als je me wilt helpen met handgeschreven vertalingen!",
+        "contact": "Contact:",
+        "email-disclaimer": "(mogelijk antwoord vanuit een ander adres)",
+        "footer-source": "Broncode voor deze website",
+        "footer-author": "Léo Bernard (Yolwoocle)"
+    },
+    "zh": {
+        "language-name": "🍜 简体中文 (*)",
+
+        "button-steam": "🐛 加入Steam愿望单",
+        "button-itchio": "🏪 在itch.io上试玩",
+        "button-discord": "🎮 Discord", 
+        "button-twitter": "🐦 推特", 
+        "button-github": "😺 GitHub", 
+        "button-press": "📰 新闻资料包",
+        "button-email": "✉️ 电子邮件",
+        "desc-1": "欢迎来到bugscraper。",
+        "desc-2": "在这里，来自世界各地的害虫汇聚一堂。",
+        "desc-3": "你的任务：在为时已晚之前阻止它们！",
+        "desc-long-1": "🐜 在这款平台射击游戏中，你扮演勇敢的蚂蚁<b>Mio</b>，试图阻止一个充满虫子的摩天大楼的员工用致命的蘑菇腐蚀世界。",
+        "desc-long-2": "🐛 你将在电梯中与一波波敌人战斗，因为他们会在每一层楼都来攻击你（更确切地说，是你的外骨骼）。",
+        "desc-long-3": "🐝 使用各种<b>武器和升级</b>，消灭它们并准备在下一层楼作战！",
+        "desc-long-4": "🐞 可以<b>单人</b>游戏，也可以和最多4个朋友一起进行<b>本地合作多人游戏</b>。",
+        "screenshot-title": "截图",
+
+        "translation-disclaimer": "带有(*)的翻译是使用生成型AI模型完成的。如果您愿意帮助我进行人工翻译，请联系我！",
+        "contact": "联系：",
+        "email-disclaimer": "（可能会从不同的地址回复）",
+        "footer-source": "本网站的源代码",
+        "footer-author": "Léo Bernard (Yolwoocle)"
+    },
+    "zh-TW": {
+        "language-name": "🍜 繁體中文",
+
+        "button-steam": "🐛 加入Steam願望單",
+        "button-itchio": "🏪 在itch.io上試玩",
+        "button-discord": "🎮 Discord", 
+        "button-twitter": "🐦 推特", 
+        "button-github": "😺 GitHub", 
+        "button-press": "📰 新聞資料包",
+        "button-email": "✉️ 電子郵件",
+        "desc-1": "歡迎來到bugscraper。",
+        "desc-2": "在這裡，來自世界各地的害蟲匯聚一堂。",
+        "desc-3": "你的任務：在為時已晚之前阻止它們！",
+        "desc-long-1": "🐜 在這款平台射擊遊戲中，你扮演勇敢的螞蟻<b>Mio</b>，試圖阻止一個充滿蟲子的摩天大樓的員工用致命的蘑菇腐蝕世界。",
+        "desc-long-2": "🐛 你將在電梯中與一波波敵人戰鬥，因為他們會在每一層樓都來攻擊你（更確切地說，是你的外骨骼）。",
+        "desc-long-3": "🐝 使用各種<b>武器和升級</b>，消滅它們並準備在下一層樓作戰！",
+        "desc-long-4": "🐞 可以<b>單人</b>遊戲，也可以和最多4個朋友一起進行<b>本地合作多人遊戲</b>。",
+        "screenshot-title": "截圖",
+
+        "translation-disclaimer": "帶有(*)的翻譯是使用生成型AI模型完成的。如果您願意幫助我進行人工翻譯，請聯繫我！",
+        "contact": "聯繫：",
+        "email-disclaimer": "（可能會從不同的地址回复）",
+        "footer-source": "本網站的源代碼",
+        "footer-author": "Léo Bernard (Yolwoocle)"
+    },
+    "ja": {
+        "language-name": "🍣 日本語",
+
+        "button-steam": "🐛 Steamのウィッシュリストに追加",
+        "button-itchio": "🏪 itch.ioでデモをプレイ",
+        "button-discord": "🎮 Discord", 
+        "button-twitter": "🐦 Twitter", 
+        "button-github": "😺 GitHub", 
+        "button-press": "📰 プレスキット",
+        "button-email": "✉️ メール",
+        "desc-1": "バグスクレーパーへようこそ。",
+        "desc-2": "ここでは、世界中の害虫が集まります。",
+        "desc-3": "あなたの使命：手遅れになる前に彼らを止めること！",
+        "desc-long-1": "🐜 このプラットフォームシューターでは、勇敢なアリの<b>Mio</b>として、バグだらけの高層ビルの従業員が致命的なキノコで世界を汚染するのを防ごうとします。",
+        "desc-long-2": "🐛 あなたはエレベーターの中で敵の波と戦うことになります。各フロアで彼らがあなたの皮膚（より正確には外骨格）を狙ってきます。",
+        "desc-long-3": "🐝 様々な<b>武器とアップグレード</b>を使って、敵を排除し、次のフロアの戦いに備えましょう！",
+        "desc-long-4": "🐞 <b>ソロ</b>または最大4人の友達と<b>ローカル協力プレイ</b>で遊びましょう。",
+        "screenshot-title": "スクリーンショット",
+
+        "translation-disclaimer": "（*）が付いている翻訳は生成AIモデルを使用して作成されました。人力による翻訳にご協力いただける場合は、ご連絡ください！",
+        "contact": "連絡先：",
+        "email-disclaimer": "（異なるアドレスから返信する場合があります）",
+        "footer-source": "このウェブサイトのソースコード",
+        "footer-author": "Léo Bernard (Yolwoocle)"
+    },
+    "ko": {
+        "language-name": "🍣 한국어",
+
+        "button-steam": "🐛 Steam 찜 목록에 추가",
+        "button-itchio": "🏪 itch.io에서 데모 플레이",
+        "button-discord": "🎮 Discord", 
+        "button-twitter": "🐦 트위터", 
+        "button-github": "😺 GitHub", 
+        "button-press": "📰 보도 자료",
+        "button-email": "✉️ 이메일",
+        "desc-1": "버그스크래퍼에 오신 것을 환영합니다.",
+        "desc-2": "여기에서는 전 세계의 해충들이 모입니다.",
+        "desc-3": "당신의 임무: 너무 늦기 전에 그들을 막아라!",
+        "desc-long-1": "🐜 이 플랫폼 슈터 게임에서 당신은 용감한 개미 <b>Mio</b>의 역할을 맡아, 해충으로 가득 찬 고층 빌딩의 직원들이 치명적인 버섯으로 세계를 오염시키는 것을 막아야 합니다.",
+        "desc-long-2": "🐛 각 층마다 적들이 당신의 피부 (정확히 말하면 외골격) 를 노리며 몰려옵니다. 엘리베이터에서 적의 파도와 싸우게 됩니다.",
+        "desc-long-3": "🐝 다양한 <b>무기와 업그레이드</b>를 사용하여 적을 제거하고 다음 층 전투에 대비하세요!",
+        "desc-long-4": "🐞 <b>솔로</b> 플레이 또는 최대 4명의 친구와 함께 <b>로컬 협동 멀티플레이어</b>로 플레이하세요.",
+        "screenshot-title": "스크린샷",
+
+        "translation-disclaimer": "(*) 표시된 번역은 생성형 AI 모델을 사용하여 작성되었습니다. 사람이 만든 번역에 도움을 주고 싶다면, 연락해 주세요!",
+        "contact": "연락처:",
+        "email-disclaimer": "(다른 주소에서 답변할 수 있습니다)",
+        "footer-source": "이 웹사이트의 소스 코드",
+        "footer-author": "Léo Bernard (Yolwoocle)"
+    },
+    "ru": {
+        "language-name": "🍲 Русский",
+
+        "button-steam": "🐛 Добавить в список желаемого на Steam",
+        "button-itchio": "🏪 Играть в демо на itch.io",
+        "button-discord": "🎮 Discord", 
+        "button-twitter": "🐦 Twitter", 
+        "button-github": "😺 GitHub", 
+        "button-press": "📰 Пресс-кит",
+        "button-email": "✉️ Email",
+        "desc-1": "Добро пожаловать в bugscraper.",
+        "desc-2": "Здесь собираются вредители со всего мира.",
+        "desc-3": "Ваша миссия: остановить их, пока не стало слишком поздно!",
+        "desc-long-1": "🐜 В этом платформере-шутере вы играете за <b>Мио</b>, смелую муравьиху, пытающуюся остановить сотрудников небоскреба, заполненного насекомыми, от заражения мира смертельным грибом.",
+        "desc-long-2": "🐛 Вы будете сражаться с волнами врагов в лифте, так как они будут нападать на вас (точнее, на ваш экзоскелет) на каждом этаже.",
+        "desc-long-3": "🐝 Используя разнообразное <b>оружие и улучшения</b>, уничтожайте их и готовьтесь к битве на следующем этаже!",
+        "desc-long-4": "🐞 Играйте в <b>одиночку</b> или с друзьями (до 4 человек) в <b>локальном кооперативном мультиплеере</b>.",
+        "screenshot-title": "Скриншоты",
+
+        "translation-disclaimer": "Переводы с (*) выполнены с помощью генеративной модели ИИ. Пожалуйста, свяжитесь со мной, если хотите помочь с переводами, выполненными людьми!",
+        "contact": "Контакт:",
+        "email-disclaimer": "(ответ может прийти с другого адреса)",
+        "footer-source": "Исходный код этого сайта",
+        "footer-author": "Лео Бернар (Yolwoocle)"
     },
 };
 
