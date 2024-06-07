@@ -20,7 +20,7 @@ const translations = {
         "desc-long-4": "🐞 Play in <b>solo</b>, or with up to 4 friends in <b>local co-op multiplayer</b>.",
         "screenshot-title": "Screenshots",
 
-        "translation-disclaimer": "Translations with [*] were made with the help of a generative AI model. Please get in touch if you'd like to help me with human-made translations!",
+        "translation-disclaimer": "Translations with (*) were made with the help of a generative AI model. Please get in touch if you'd like to help me with human-made translations!",
         "contact": "Contact:",
         "email-disclaimer": "(might respond under a different address)",
         "footer-source": "Source code for this website",
@@ -95,7 +95,7 @@ const translations = {
         "desc-long-4": "🐞 Spiele im <b>Einzelspielermodus</b> oder mit bis zu 4 Freunden im <b>lokalen Koop-Modus</b>.",
         "screenshot-title": "Screenshots",
 
-        "translation-disclaimer": "Übersetzungen mit (*) wurden mit Hilfe eines generativen KI-Modells erstellt. Bitte kontaktieren Sie mich, wenn Sie mir mit menschlichen Übersetzungen helfen möchten!",
+        "translation-disclaimer": "Übersetzungen mit (*) wurden mit Hilfe eines generativen KI-Modells erstellt. Bitte kontaktiere mich, wenn du mir mit menschlichen Übersetzungen helfen möchtest!",
         "contact": "Kontakt:",
         "email-disclaimer": "(Antworten können von einer anderen Adresse kommen)",
         "footer-source": "Quellcode dieser Webseite",
