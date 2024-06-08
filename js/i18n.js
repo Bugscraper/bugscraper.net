@@ -153,7 +153,7 @@ const translations = {
     },
     
     "nl": { // courtesy of keyslam and marzgaoui45 for proof-reading
-        "language-name": "🍟 Nederlands (*)",
+        "language-name": "🍟 Nederlands",
 
         "button-steam": "🐛 Zet het op je Steam verlangljist",
         "button-itchio": "🏪 Speel de demo op itch.io",
@@ -165,10 +165,10 @@ const translations = {
         "desc-1": "Welkom bij de bugscraper.",
         "desc-2": "Hier komen plagen van over de hele wereld samen.",
         "desc-3": "Je missie: stop ze voordat het te laat is!",
-        "desc-long-1": "🐜 In deze platform shooter speel je als <b>Mio</b>, een moedige mier, die probeert te voorkomen dat de werknemers van een wolkenkrabber gevuld met insecten de wereld corrupt maken met een dodelijke paddenstoel.",
-        "desc-long-2": "🐛 Je zult golven van vijanden bevechten in een lift terwijl ze op elke verdieping op je huid (of beter gezegd, exoskelet) zitten.",
-        "desc-long-3": "🐝 Gebruikmakend van een grote verscheidenheid aan <b>wapens en upgrades</b>, elimineer ze en bereid je voor op het gevecht op de volgende verdieping!",
-        "desc-long-4": "🐞 Speel <b>solo</b> of met maximaal 4 vrienden in <b>lokale coöperatieve multiplayer</b>.",
+        "desc-long-1": "🐜 In deze platform shooter kruip je in de huid van <b>Mio</b>, een moedige mier die probeert te voorkomen dat de werknemers van een wolkenkrabber vol insecten de wereld bederven met een dodelijke paddenstoel.",
+        "desc-long-2": "🐛 In een lift ga je de strijd aan met golven van vijanden die op elke verdieping op je huid (of eigenlijk exoskelet) afkomen.",
+        "desc-long-3": "🐝 Gebruik verschillende <b>wapens en upgrades</b> om ze uit te schakelen en bereid je voor op de strijd op de volgende verdieping!",
+        "desc-long-4": "🐞 Speel <b>solo</b> of met maximaal 4 vrienden in <b>local co-op multiplayer</b>.",
         "screenshot-title": "Screenshots",
 
         "translation-disclaimer": "Vertalingen met (*) zijn gemaakt met behulp van een generatief AI-model. Neem contact op als je me wilt helpen met handgeschreven vertalingen!",
@@ -277,7 +277,7 @@ const translations = {
         "footer-source": "이 웹사이트의 소스 코드",
         "footer-author": "Léo Bernard (Yolwoocle)"
     },
-    "ru": { // Proofreading courtesy of yellowbutshort
+    "ru": { // Courtesy of yellowbutshort for proofreading
         "language-name": "🍲 Русский",
 
         "button-steam": "🐛 Добавить в список желаемого на Steam",
