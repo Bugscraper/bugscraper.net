@@ -152,11 +152,10 @@ const translations = {
         "footer-author": "Léo Bernard (Yolwoocle)"
     },
     
-    // courtesy of keyslam for proof-reading
-    "nl": {
+    "nl": { // courtesy of keyslam and marzgaoui45 for proof-reading
         "language-name": "🍟 Nederlands (*)",
 
-        "button-steam": "🐛 Zet op verlanglijst op Steam",
+        "button-steam": "🐛 Zet het op je Steam verlangljist",
         "button-itchio": "🏪 Speel de demo op itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
@@ -166,8 +165,8 @@ const translations = {
         "desc-1": "Welkom bij de bugscraper.",
         "desc-2": "Hier komen plagen van over de hele wereld samen.",
         "desc-3": "Je missie: stop ze voordat het te laat is!",
-        "desc-long-1": "🐜 In deze platform shooter speel je als <b>Mio</b>, een moedige mier, die probeert te voorkomen dat de werknemers van een met insecten gevuld hoog gebouw de wereld corrupt maken met een dodelijke paddenstoel.",
-        "desc-long-2": "🐛 Je zult ronden van vijanden bevechten in een lift terwijl ze op elke verdieping op je huid (of beter gezegd, exoskelet) zitten.",
+        "desc-long-1": "🐜 In deze platform shooter speel je als <b>Mio</b>, een moedige mier, die probeert te voorkomen dat de werknemers van een wolkenkrabber gevuld met insecten de wereld corrupt maken met een dodelijke paddenstoel.",
+        "desc-long-2": "🐛 Je zult golven van vijanden bevechten in een lift terwijl ze op elke verdieping op je huid (of beter gezegd, exoskelet) zitten.",
         "desc-long-3": "🐝 Gebruikmakend van een grote verscheidenheid aan <b>wapens en upgrades</b>, elimineer ze en bereid je voor op het gevecht op de volgende verdieping!",
         "desc-long-4": "🐞 Speel <b>solo</b> of met maximaal 4 vrienden in <b>lokale coöperatieve multiplayer</b>.",
         "screenshot-title": "Screenshots",
@@ -278,7 +277,7 @@ const translations = {
         "footer-source": "이 웹사이트의 소스 코드",
         "footer-author": "Léo Bernard (Yolwoocle)"
     },
-    "ru": {
+    "ru": { // Proofreading courtesy of yellowbutshort
         "language-name": "🍲 Русский",
 
         "button-steam": "🐛 Добавить в список желаемого на Steam",
@@ -292,12 +291,12 @@ const translations = {
         "desc-2": "Здесь собираются вредители со всего мира.",
         "desc-3": "Ваша миссия: остановить их, пока не стало слишком поздно!",
         "desc-long-1": "🐜 В этом платформере-шутере вы играете за <b>Мио</b>, смелую муравьиху, пытающуюся остановить сотрудников небоскреба, заполненного насекомыми, от заражения мира смертельным грибом.",
-        "desc-long-2": "🐛 Вы будете сражаться с волнами врагов в лифте, так как они будут нападать на вас (точнее, на ваш экзоскелет) на каждом этаже.",
+        "desc-long-2": "🐛 Вы будете сражаться с волнами врагов в лифте, нападающих на вас (точнее, на ваш экзоскелет) на каждом этаже.",
         "desc-long-3": "🐝 Используя разнообразное <b>оружие и улучшения</b>, уничтожайте их и готовьтесь к битве на следующем этаже!",
         "desc-long-4": "🐞 Играйте в <b>одиночку</b> или с друзьями (до 4 человек) в <b>локальном кооперативном мультиплеере</b>.",
         "screenshot-title": "Скриншоты",
 
-        "translation-disclaimer": "Переводы с (*) выполнены с помощью генеративной модели ИИ. Пожалуйста, свяжитесь со мной, если хотите помочь с переводами, выполненными людьми!",
+        "translation-disclaimer": "Переводы с (*) выполнены с помощью генеративной модели ИИ. Пожалуйста свяжитесь со мной если хотите помочь с исправлениями ошибок в переводе!",
         "contact": "Контакт:",
         "email-disclaimer": "(ответ может прийти с другого адреса)",
         "footer-source": "Исходный код этого сайта",
