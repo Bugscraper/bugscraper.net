@@ -8,6 +8,7 @@ const translations = {
         "button-itchio": "🏪 Play the demo on itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
+        "button-instagram": "📷 Instagram",  // TODO: translate instagram
         "button-github": "😺 GitHub", 
         "button-press": "📰 Press kit",
         "button-email": "✉️ Email",
@@ -22,7 +23,7 @@ const translations = {
 
         "translation-disclaimer": "Translations with (*) were made with the help of a generative AI model. Please get in touch if you'd like to help me with human-made translations!",
         "contact": "Contact:",
-        "email-disclaimer": "(might respond under a different address)",
+        "email-disclaimer": "(I might respond under a different address)",
         "footer-source": "Source code for this website",
         "footer-author": "Léo Bernard (Yolwoocle)"
     },
