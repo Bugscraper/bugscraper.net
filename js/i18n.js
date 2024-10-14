@@ -5,7 +5,7 @@ const translations = {
         "language-name": "🍔 English",
 
         "button-steam": "🐛 Wishlist on Steam", // "wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
-        "button-itchio": "🏪 Play the demo on itch.io",
+        "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
         "button-instagram": "📷 Instagram",  // TODO: translate instagram
@@ -21,6 +21,7 @@ const translations = {
         "desc-long-4": "🐞 Play in <b>solo</b>, or with up to 4 friends in <b>local co-op multiplayer</b>.",
         "screenshot-title": "Screenshots",
 
+        "translator-request": "I'm looking for translators. If you'd like to volunteer (or if you have an affordable price), please get in touch!",
         "translation-disclaimer": "Translations with (*) were made with the help of a generative AI model. Please get in touch if you'd like to help me with human-made translations!",
         "contact": "Contact:",
         "email-disclaimer": "(I might respond under a different address)",
@@ -30,8 +31,8 @@ const translations = {
     "fr": {
         "language-name": "🥖 Français",
 
-        "button-steam": "🐛 Ajoutez à votre liste de souhaits sur Steam",
-        "button-itchio": "🏪 Jouez à la démo sur itch.io",
+        "button-steam": "🐛 Ajouter sur Steam",
+        "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
         "button-github": "😺 GitHub", 
@@ -46,6 +47,7 @@ const translations = {
         "desc-long-4": "🐞 Jouez en <b>solo</b>, ou avec jusqu'à 4 amis en <b>multijoueur local coopératif</b>.",
         "screenshot-title": "Captures",
     
+        "translator-request": "Je recherche des traducteurs. Merci de me contacter si vous souhaitez contribuer (ou si vous avez des prix abordables) !",
         "translation-disclaimer": "Les traductions avec (*) ont été réalisées à l'aide d'un modèle d'IA générative. Veuillez me contacter si vous souhaitez m'aider à fournir des traductions faites par des humains&nbsp;!",
         "contact": "Contact :",
         "email-disclaimer": "(les réponses peuvent provenir d'une adresse différente)",
