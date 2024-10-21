@@ -68,6 +68,31 @@ a {
     padding: 15px;
 }
 
+.article-button {
+    margin: 16px;
+    
+    font-size: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    color: inherit;
+    
+    background-color: var(--col-bg-main);
+    border: solid var(--col-text-light);
+    border-radius: 15px;
+    
+    transition: all 0.3s ease;
+}
+.article-button h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.article-button p {
+    margin-bottom: 8px
+}
+.dotted {
+    border: dotted var(--col-text-light);
+}
+
 .link-button {
     margin: 5px;
     

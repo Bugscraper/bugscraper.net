@@ -4,13 +4,15 @@ const translations = {
     "en": {
         "language-name": "🍔 English",
 
-        "button-steam": "🐛 Wishlist on Steam", // "wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
+        "button-steam-wishlist": "🐛 Wishlist on Steam", // "wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
+        "button-steam": "🐛 Steam", // "wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
         "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
         "button-instagram": "📷 Instagram",  // TODO: translate instagram
         "button-github": "😺 GitHub", 
-        "button-press": "📰 Press kit",
+        "button-press": "📰 Press",
+        "button-press-kit": "📰 Download the press kit",
         "button-email": "✉️ Email",
         "desc-1": "Welcome to the bugscraper.",
         "desc-2": "Here, pests all around the world come to gather. ",
@@ -21,22 +23,31 @@ const translations = {
         "desc-long-4": "🐞 Play in <b>solo</b>, or with up to 4 friends in <b>local co-op multiplayer</b>.",
         "screenshot-title": "Screenshots",
 
-        "translator-request": "I'm looking for translators. If you'd like to volunteer (or if you have an affordable price), please get in touch!",
+        "translator-request": "I'm looking for (human) translators. If you'd like to volunteer (or if you have an affordable price), please get in touch!",
         "translation-disclaimer": "Translations with (*) were made with the help of a generative AI model. Please get in touch if you'd like to help me with human-made translations!",
         "contact": "Contact:",
         "email-disclaimer": "(I might respond under a different address)",
         "footer-source": "Source code for this website",
-        "footer-author": "Léo Bernard (Yolwoocle)"
+        "footer-author": "Léo Bernard (Yolwoocle)",
+
+        "html-title-press": "Bugscraper · Presse",
+        "press-title": "Press",
+        "press-article-list-title": "What people are saying about the game",
+        "press-article-list-add-yours": "Want to add yours?",
+        "press-article-list-add-yours-email": "Email me!",
     },
     "fr": {
         "language-name": "🥖 Français",
 
-        "button-steam": "🐛 Ajouter sur Steam",
+        "button-steam-wishlist": "🐛 Ajouter sur Steam",
+        "button-steam": "🐛 Steam",
         "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
+        "button-instagram": "📷 Instagram",
         "button-github": "😺 GitHub", 
-        "button-press": "📰 Kit de presse",
+        "button-press": "📰 Presse",
+        "button-press-kit": "📰 Téléchargez le kit de presse",
         "button-email": "✉️ Email", 
         "desc-1": "Bienvenue dans le bugscraper.",
         "desc-2": "Ici se retrouvent des bêtes du monde entier.",
@@ -47,12 +58,17 @@ const translations = {
         "desc-long-4": "🐞 Jouez en <b>solo</b>, ou avec jusqu'à 4 amis en <b>multijoueur local coopératif</b>.",
         "screenshot-title": "Captures",
     
-        "translator-request": "Je recherche des traducteurs. Merci de me contacter si vous souhaitez contribuer (ou si vous avez des prix abordables) !",
+        "translator-request": "Je recherche des traducteurs (humains). Merci de me contacter si vous souhaitez contribuer (ou si vous avez des prix abordables) !",
         "translation-disclaimer": "Les traductions avec (*) ont été réalisées à l'aide d'un modèle d'IA générative. Veuillez me contacter si vous souhaitez m'aider à fournir des traductions faites par des humains&nbsp;!",
         "contact": "Contact :",
         "email-disclaimer": "(les réponses peuvent provenir d'une adresse différente)",
         "footer-source": "Code source de ce site web",
-        "footer-author": "Léo Bernard (Yolwoocle)"
+        "footer-author": "Léo Bernard (Yolwoocle)",
+        
+        "press-title": "Presse",
+        "press-article-list-title": "Ce que les gens disent sur le jeu",
+        "press-article-list-add-yours": "Vous souhaitez ajouter votre article?",
+        "press-article-list-add-yours-email": "Envoyez-moi un email!",
     },
 }
 
