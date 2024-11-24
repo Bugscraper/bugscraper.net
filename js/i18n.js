@@ -9,6 +9,7 @@ const translations = {
         "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
+        "button-bluesky": "🦋 Bluesky", 
         "button-instagram": "📷 Instagram",  // TODO: translate instagram
         "button-github": "😺 GitHub", 
         "button-press": "📰 Press",
@@ -44,6 +45,7 @@ const translations = {
         "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
+        "button-bluesky": "🦋 Bluesky", 
         "button-instagram": "📷 Instagram",
         "button-github": "😺 GitHub", 
         "button-press": "📰 Presse",
