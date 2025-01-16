@@ -2,15 +2,15 @@
 
 const translations = {
     "en": {
-        "language-name": "🍔 English",
+        "language-name": "English",
 
         "button-steam-wishlist": "🐛 Wishlist on Steam", // "wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
-        "button-steam": "🐛 Steam", // "wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
+        "button-steam": "🐛 Steam", 
         "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
         "button-twitter": "🐦 Twitter", 
         "button-bluesky": "🦋 Bluesky", 
-        "button-instagram": "📷 Instagram",  // TODO: translate instagram
+        "button-instagram": "📷 Instagram",  
         "button-github": "😺 GitHub", 
         "button-press": "📰 Press",
         "button-press-kit": "📰 Download the press kit",
@@ -18,8 +18,8 @@ const translations = {
         "desc-1": "Welcome to the bugscraper.",
         "desc-2": "Here, pests all around the world come to gather. ",
         "desc-3": "Your mission: stopping them before it is too late!",
-        "desc-long-1": "🐜 In this platformer shooter, you take the role of <b>Mio</b>, a courageous ant, trying to stop the employees of a bug-filled skyscraper from corrupting the world with a deadly mushroom.",
-        "desc-long-2": "🐛 You will battle waves of enemies in an elevator as they come for your skin (or rather, exoskeleton) on every floor.",
+        "desc-long-1": "🐜 In this <b>roguelike shooter</b>, you take the role of employees of a bug-filled skyscraper fed up with their jobs.",
+        "desc-long-2": "🐛 You will battle waves of enemies in an elevator as they come for your exoskeleton on every floor.",
         "desc-long-3": "🐝 Using a wide variety of <b>weapons and upgrades</b>, eliminate them and prepare to battle for the next floor!",
         "desc-long-4": "🐞 Play in <b>solo</b>, or with up to 4 friends in <b>local co-op multiplayer</b>.",
         "screenshot-title": "Screenshots",
@@ -38,7 +38,7 @@ const translations = {
         "press-article-list-add-yours-email": "Email me!",
     },
     "fr": {
-        "language-name": "🥖 Français",
+        "language-name": "Français",
 
         "button-steam-wishlist": "🐛 Ajouter sur Steam",
         "button-steam": "🐛 Steam",
