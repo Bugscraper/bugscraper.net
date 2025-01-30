@@ -1,4 +1,4 @@
-# bugscraper.github.io
-Website for Bugscraper game   
+# bugscraper.net
+Website for [Bugscraper](https://s.team/a/2957130) game   
 
 Link : [bugscraper.net](https://bugscraper.net/)
