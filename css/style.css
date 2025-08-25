@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 :root {
     --col-bg-main: #262b44;
@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: "Varela Round", sans-serif;
+    font-family: "Fredoka", sans-serif;
     font-style: normal;
     
     line-height: 1.4;
@@ -137,7 +137,7 @@ a {
 }
 
 .locale-switcher {
-    font-family: "Varela Round", sans-serif;
+    font-family: "Fredoka", sans-serif;
     font-style: normal;
     
     font-weight: 400;
