@@ -69,6 +69,7 @@ const translations = {
         "footer-source": "Code source de ce site web",
         "banner-author": "Illustration bannière :",
         
+        "html-title-press": "Bugscraper · Presse",
         "press-title": "Presse",
         "press-article-list-title": "Ce que les gens disent sur le jeu",
         "press-article-list-add-yours": "Vous souhaitez ajouter votre article?",
