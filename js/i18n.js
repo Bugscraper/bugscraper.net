@@ -75,7 +75,7 @@ const translations = {
 			"🐞 <b>Llega a la cima</b> de el edificio y arregla cuentas con tu jefe!",
 		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
 		"desc-short":
-			"Bienvenido a Bugscraper. En este juego solitario o cooperativo roguelike de disparos, batalla piso tras piso de enemigos, llega a la cima y arregla cuentas con tu jefe tirano",
+			"Bienvenido a Bugscraper. En este juego solitario o cooperativo roguelike de disparos, batalla piso tras piso de enemigos, llega a la cima y arregla cuentas con tu jefe tirano.",
 
 		"screenshot-title": "Capturas de pantalla",
 
@@ -104,7 +104,7 @@ const translations = {
 		"button-press-kit": "📰 Téléchargez le kit de presse",
 		"button-email": "✉️ Email",
 
-		"desc-1": "Bienvenue dans le Bugscraper.",
+		"desc-1": "Bienvenue au Bugscraper.",
 		"desc-2":
 			"<b>Bugscraper</b> est un <b>roguelike shooter solo ou coopératif</b>. En voie vers le bureau de votre tyrannique patron, vous ferez face à des vagues d'ennemis à chaque étage. À l'aide d'une multitude d'armes et une grande diversité d'améliorations, éliminez les et visez le sommet !",
 		"desc-long-1":
@@ -117,7 +117,7 @@ const translations = {
 			"🐞 <b>Atteignez le haut</b> du gratte-ciel et <b>réglez vos comptes</b> avec votre patron !",
 		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
 		"desc-short":
-			"Bienvenue dans le Bugscraper. Dans ce roguelike shooter solo ou coopératif, affrontez étage après étage de vagues d'ennemis, visez le sommet et réglez vos comptes avec votre tyrannique boss.",
+			"Bienvenue au Bugscraper. Dans ce roguelike shooter solo ou coopératif, affrontez étage après étage de vagues d'ennemis, visez le sommet et réglez vos comptes avec votre tyrannique boss.",
 
 		"screenshot-title": "Captures",
 
