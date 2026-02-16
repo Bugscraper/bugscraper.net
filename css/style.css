@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Kosugi+Maru&display=swap');
 
 :root {
     --col-bg-main: #262b44;
@@ -8,7 +8,7 @@
     --col-text-lighter: #535976;
 }
 
-body{
+body {
     font-family: "Fredoka", sans-serif;
     font-style: normal;
     
@@ -25,6 +25,10 @@ body{
 
     overflow-x: hidden;
     /* outline: solid red; */
+}
+
+:lang(ja) body {
+    font-family: "Fredoka", "Kosugi Maru", sans-serif;
 }
 
 .page-content {

@@ -45,6 +45,47 @@ const translations = {
 		"press-article-list-add-yours": "Want to add yours?",
 		"press-article-list-add-yours-email": "Email me!",
 	},
+	fr: {
+		"language-name": "Français",
+
+		"button-steam-wishlist": "🐛 Wishlistez sur Steam",
+		"button-steam": "🐛 Steam",
+		"button-itchio": "🏪 itch.io",
+		"button-discord": "🎮 Discord",
+		"button-twitter": "🐦 Twitter",
+		"button-bluesky": "🦋 Bluesky",
+		"button-instagram": "📷 Instagram",
+		"button-github": "😺 GitHub",
+		"button-press": "🗞️ Articles",
+		"button-press-kit": "📰 Téléchargez le kit de presse",
+		"button-email": "✉️ Email",
+
+		"desc-1": "Bienvenue au Bugscraper.",
+		"desc-2":
+			"<b>Bugscraper</b> est un <b>roguelike shooter solo ou coopératif</b>. En voie vers le bureau de votre tyrannique patron, vous ferez face à des vagues d'ennemis à chaque étage. À l'aide d'une multitude d'armes et une grande diversité d'améliorations, éliminez les et visez le sommet !",
+		"desc-long-1":
+			"🐜 Vous incarnerez <b>Mio et ses amis</b>, en <b>solo</b> ou en <b>multijoueur local coopératif</b> avec jusqu'à 4 joueurs.",
+		"desc-long-2":
+			"🐛 Faites face à une centaine de vagues <b>d'ennemis agressifs</b> et de <b>tenaces boss</b>.",
+		"desc-long-3":
+			"🐝 Récoltez diverses <b>armes</b>, rassasiez vous à l'aide <b>d'améliorations</b>, puis préparez-vous au combat pour l'étage suivant !",
+		"desc-long-4":
+			"🐞 <b>Atteignez le haut</b> du gratte-ciel et <b>réglez vos comptes</b> avec votre patron !",
+		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
+		"desc-short":
+			"Bienvenue au Bugscraper. Dans ce roguelike shooter solo ou coopératif, affrontez étage après étage de vagues d'ennemis, visez le sommet et réglez vos comptes avec votre tyrannique boss.",
+
+		"screenshot-title": "Captures",
+
+		contact: "Contact :",
+		"footer-source": "Code source de ce site web",
+		"banner-author": "Illustration bannière :",
+
+		"press-title": "Presse",
+		"press-article-list-title": "Ce que les gens disent sur le jeu",
+		"press-article-list-add-yours": "Vous souhaitez ajouter votre article?",
+		"press-article-list-add-yours-email": "Envoyez-moi un email!",
+	},
 	es: {
 		"language-name": "Español",
 
@@ -89,47 +130,6 @@ const translations = {
 		"press-article-list-add-yours": "Quieres agregar tu comentario?",
 		"press-article-list-add-yours-email": "Enviame un correo!",
 	},
-	fr: {
-		"language-name": "Français",
-
-		"button-steam-wishlist": "🐛 Wishlistez sur Steam",
-		"button-steam": "🐛 Steam",
-		"button-itchio": "🏪 itch.io",
-		"button-discord": "🎮 Discord",
-		"button-twitter": "🐦 Twitter",
-		"button-bluesky": "🦋 Bluesky",
-		"button-instagram": "📷 Instagram",
-		"button-github": "😺 GitHub",
-		"button-press": "🗞️ Articles",
-		"button-press-kit": "📰 Téléchargez le kit de presse",
-		"button-email": "✉️ Email",
-
-		"desc-1": "Bienvenue au Bugscraper.",
-		"desc-2":
-			"<b>Bugscraper</b> est un <b>roguelike shooter solo ou coopératif</b>. En voie vers le bureau de votre tyrannique patron, vous ferez face à des vagues d'ennemis à chaque étage. À l'aide d'une multitude d'armes et une grande diversité d'améliorations, éliminez les et visez le sommet !",
-		"desc-long-1":
-			"🐜 Vous incarnerez <b>Mio et ses amis</b>, en <b>solo</b> ou en <b>multijoueur local coopératif</b> avec jusqu'à 4 joueurs.",
-		"desc-long-2":
-			"🐛 Faites face à une centaine de vagues <b>d'ennemis agressifs</b> et de <b>tenaces boss</b>.",
-		"desc-long-3":
-			"🐝 Récoltez diverses <b>armes</b>, rassasiez vous à l'aide <b>d'améliorations</b>, puis préparez-vous au combat pour l'étage suivant !",
-		"desc-long-4":
-			"🐞 <b>Atteignez le haut</b> du gratte-ciel et <b>réglez vos comptes</b> avec votre patron !",
-		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
-		"desc-short":
-			"Bienvenue au Bugscraper. Dans ce roguelike shooter solo ou coopératif, affrontez étage après étage de vagues d'ennemis, visez le sommet et réglez vos comptes avec votre tyrannique boss.",
-
-		"screenshot-title": "Captures",
-
-		contact: "Contact :",
-		"footer-source": "Code source de ce site web",
-		"banner-author": "Illustration bannière :",
-
-		"press-title": "Presse",
-		"press-article-list-title": "Ce que les gens disent sur le jeu",
-		"press-article-list-add-yours": "Vous souhaitez ajouter votre article?",
-		"press-article-list-add-yours-email": "Envoyez-moi un email!",
-	},
 
 	// "zh-hans": {
 	//     "language-name": "简体中文",
@@ -166,6 +166,54 @@ const translations = {
 	//     "press-article-list-add-yours": "想添加你的文章？",
 	//     "press-article-list-add-yours-email": "给我发邮件！"
 	// }
+
+	ja: {
+		"language-name": "日本語",
+
+		// "Wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
+		"button-steam-wishlist": "🐛 ウィッシュリスト登録",
+		"button-steam": "🐛 Steam",
+		"button-itchio": "🏪 itch.io",
+		"button-discord": "🎮 Discord",
+		"button-twitter": "🐦 Twitter",
+		"button-bluesky": "🦋 Bluesky",
+		"button-instagram": "📷 Instagram",
+		"button-github": "😺 GitHub",
+		"button-press": "🗞️ ニュース",
+		"button-press-kit": "📰 資料のダウンロード",
+		"button-email": "✉️ Eメール",
+
+		// This will also be on the Steam page.
+		// "desc-1": "ようこそ「Bugscraper(バグスクレーパー)」へ。",
+		// "desc-2":
+		// 	"<b>Bugscraper</b> は <b>一人</b>でも <b>みんな</b> でも遊べる ローグライクシューティングゲームだ。 君は横暴な上司に立ち向かうためエレベーターに乗り、凶悪な敵がひしめくフロアを制圧するのだ。 多種多様な武器とアップグレードを駆使し、奴らをなぎ倒し最上階を目指すのだ!",
+		"desc-1": "ようこそ「Bugscraper」へ。",
+		"desc-2":
+			"<b>Bugscraper (バグスクレーパー)</b> は <b>一人</b>でも <b>みんな</b> でも遊べる ローグライクシューティングゲームだ。 君は横暴な上司に立ち向かうためエレベーターに乗り、凶悪な敵がひしめくフロアを制圧するのだ。 多種多様な武器とアップグレードを駆使し、奴らをなぎ倒し最上階を目指すのだ!",
+		"desc-long-1":
+			"🐜 <b>ミオと友人達</b>として <b>1人</b> から 最大<b>4人</b>までローカルでプレイ可能",
+		"desc-long-2":
+			"🐛 <b>大量の敵</b> と <b>強力なボス</b>で埋め尽くされた<b>100のウェーブ</b>を戦い抜け",
+		"desc-long-3":
+			"🐝  <b>新たな武器</b>と <b>アップグレード</b>を駆使し次なるフロアへと挑め!",
+		"desc-long-4":
+			"🐞 <b>最上階</b>へと上り詰め、上司と決着をつけろ!",
+		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
+		"desc-short":
+			"ようこそ「Bugscraper」へ。 一人でもみんなでも遊べる ローグライクシューティングゲームだ。フロアごとに押し寄せる敵と戦い最上階を目指せ そして横暴な上司との決着を付けろ。",
+
+		"screenshot-title": "スクリーンショット",
+
+		contact: "コンタクト",
+		"footer-source": "ウェブサイトのソースコード",
+		"banner-author": "バーナーアート",
+
+		"html-title-press": "バグスクレーパー · 新聞",
+		"press-title": "ニュース",
+		"press-article-list-title": "ゲームの評価",
+		"press-article-list-add-yours": "君も加わりたい?",
+		"press-article-list-add-yours-email": "ぜひ連絡して!",
+	},
 };
 
 const defaultLocale = "en";
@@ -205,6 +253,8 @@ function setLocale(newLocale) {
 		return;
 	}
 	locale = newLocale;
+
+	document.documentElement.lang = locale;
 	translatePage();
 	saveLocale();
 }
