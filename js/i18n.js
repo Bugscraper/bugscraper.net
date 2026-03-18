@@ -214,6 +214,50 @@ const translations = {
 		"press-article-list-add-yours": "君も加わりたい?",
 		"press-article-list-add-yours-email": "ぜひ連絡して!",
 	},
+	pl: {
+		"language-name": "Polski",
+
+		// "Wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
+		"button-steam-wishlist": "🐛 Dodaj do listy życzeń na Steam",
+		"button-steam": "🐛 Steam",
+		"button-itchio": "🏪 itch.io",
+		"button-discord": "🎮 Discord",
+		"button-twitter": "🐦 Twitter",
+		"button-bluesky": "🦋 Bluesky",
+		"button-instagram": "📷 Instagram",
+		"button-github": "😺 GitHub",
+		"button-press": "🗞️ Artykuły",
+		"button-press-kit": "📰 Pobierz zestaw prasowy",
+		"button-email": "✉️ Email",
+
+		// This will also be on the Steam page.
+		"desc-1": "Witaj w Bugscraper.",
+		"desc-2":
+			"<b>Bugscraper</b> to strzelanka typu <b>roguelike</b> przeznaczona do gry <b>solo</b> lub <b>w trybie kooperacji</b>. Wspinając się w stronę biura swojego tyranicznego szefa, będziesz walczyć z przeciwnikami piętro po piętrze. Używając szerokiego arsenału broni i ulepszeń, eliminuj ich i dostań się na szczyt!",
+		"desc-long-1":
+			"🐜 Graj jako <b>Mio i jego przyajciele</b> w trybie <b>solo</b> lub <b>lokalnym trybie współpracy</b> dla maksymalnie 4 graczy.",
+		"desc-long-2":
+			"🐛 Przebij się przez <b>setkę fal</b> pełnych <b>wściekłych wrogów</b> i <b>trudnych bossów</b>.",
+		"desc-long-3":
+			"🐝 Zbierz <b>nowe bronie</b>, zdobądź <b>ulepszenia</b> i przygotuj się na bitwę na następnym piętrze!",
+		"desc-long-4":
+			"🐞 <b>Dotrzyj na szczyt</b> biurowca i rozlicz się ze swoim szefem!",
+		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
+		"desc-short":
+			"Witaj w Bugscraper. W tej strzelance typu rougelike do gry solo lub w trybie kooperacji, walcz z przeciwnikami piętro po piętrze, dotrzyj na szczyt biurowca i rozlicz się ze swoim tyranicznym szefem!",
+
+		"screenshot-title": "Zdjęcia z gry",
+
+		contact: "Kontakt:",
+		"footer-source": "Kod źródłowy tej strony",
+		"banner-author": "Grafika bannera:",
+
+		"html-title-press": "Bugscraper · Prasa",
+		"press-title": "Prasa",
+		"press-article-list-title": "Co inni mówią o tej grze",
+		"press-article-list-add-yours": "Chcesz dodać swoje?",
+		"press-article-list-add-yours-email": "Wyślij mi e-mail!",
+	},
 };
 
 const defaultLocale = "en";
