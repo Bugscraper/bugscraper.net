@@ -14,7 +14,7 @@ const translations = {
 		"button-instagram": "📷 Instagram",
 		"button-github": "😺 GitHub",
 		"button-press": "🗞️ Articles",
-		"button-press-kit": "📰 Download the press kit",
+		"button-press-kit": "📰 Press kit",
 		"button-email": "✉️ Email",
 
 		// This will also be on the Steam page.
@@ -57,12 +57,12 @@ const translations = {
 		"button-instagram": "📷 Instagram",
 		"button-github": "😺 GitHub",
 		"button-press": "🗞️ Articles",
-		"button-press-kit": "📰 Téléchargez le kit de presse",
+		"button-press-kit": "📰 Press kit",
 		"button-email": "✉️ Email",
 
 		"desc-1": "Bienvenue au Bugscraper.",
 		"desc-2":
-			"<b>Bugscraper</b> est un <b>roguelike shooter solo ou coopératif</b>. En voie vers le bureau de votre tyrannique patron, vous ferez face à des vagues d'ennemis à chaque étage. À l'aide d'une multitude d'armes et une grande diversité d'améliorations, éliminez les et visez le sommet !",
+			"<b>Bugscraper</b> est un <b>roguelike shooter solo ou coopératif</b>. En voie vers le bureau de votre patron tyrannique, vous ferez face à des vagues d'ennemis à chaque étage. À l'aide d'une multitude d'armes et une grande diversité d'améliorations, éliminez les et visez le sommet !",
 		"desc-long-1":
 			"🐜 Vous incarnerez <b>Mio et ses amis</b>, en <b>solo</b> ou en <b>multijoueur local coopératif</b> avec jusqu'à 4 joueurs.",
 		"desc-long-2":
@@ -73,7 +73,7 @@ const translations = {
 			"🐞 <b>Atteignez le haut</b> du gratte-ciel et <b>réglez vos comptes</b> avec votre patron !",
 		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
 		"desc-short":
-			"Bienvenue au Bugscraper. Dans ce roguelike shooter solo ou coopératif, affrontez étage après étage de vagues d'ennemis, visez le sommet et réglez vos comptes avec votre tyrannique boss.",
+			"Bienvenue au Bugscraper. Dans ce roguelike shooter solo ou coopératif, enchaînez les étages et faites face à des vagues d'ennemis effrénées. Visez le sommet et réglez vos comptes avec votre boss !",
 
 		"screenshot-title": "Captures",
 
