@@ -57,7 +57,7 @@ const translations = {
 		"button-instagram": "📷 Instagram",
 		"button-github": "😺 GitHub",
 		"button-press": "🗞️ Articles",
-		"button-press-kit": "📰 Press kit",
+		"button-press-kit": "📰 Kit de presse",
 		"button-email": "✉️ Email",
 
 		"desc-1": "Bienvenue au Bugscraper.",
@@ -99,7 +99,7 @@ const translations = {
 		"button-instagram": "📷 Instagram",
 		"button-github": "😺 GitHub",
 		"button-press": "🗞️ Articulos",
-		"button-press-kit": "📰 Descarga el kit de prensa",
+		"button-press-kit": "📰 Kit de prensa",
 		"button-email": "✉️ Correo",
 
 		// This will also be on the Steam page.
@@ -171,7 +171,7 @@ const translations = {
 		"language-name": "日本語",
 
 		// "Wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
-		"button-steam-wishlist": "🐛 ウィッシュリスト登録",
+		"button-steam-wishlist": "🐛 ウィッシュリスト",
 		"button-steam": "🐛 Steam",
 		"button-itchio": "🏪 itch.io",
 		"button-discord": "🎮 Discord",
@@ -227,7 +227,7 @@ const translations = {
 		"button-instagram": "📷 Instagram",
 		"button-github": "😺 GitHub",
 		"button-press": "🗞️ Artykuły",
-		"button-press-kit": "📰 Pobierz zestaw prasowy",
+		"button-press-kit": "📰 Zestaw prasowy",
 		"button-email": "✉️ Email",
 
 		// This will also be on the Steam page.
