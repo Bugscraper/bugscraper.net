@@ -277,7 +277,7 @@ const translations = {
 		// This will also be on the Steam page.
 		"desc-1": "Bem-vindo/a ao Bugscraper.",
 		"desc-2":
-			"<b>Bugscraper</b é um jogo de <b>tiro roguelike</b>, que pode ser jogado <b>solo</b> ou <b>co-op</b>. Suba até a sala do seu chefe tirano e lute contra vários andares de inimigos diferentes. Use armas diversas, ganhe upgrades, atire em todo mundo e chegue ao topo!",
+			"<b>Bugscraper</b> é um jogo de <b>tiro roguelike</b>, que pode ser jogado <b>solo</b> ou <b>co-op</b>. Suba até a sala do seu chefe tirano e lute contra vários andares de inimigos diferentes. Use armas diversas, ganhe upgrades, atire em todo mundo e chegue ao topo!",
 		"desc-long-1":
 			"🐜 Controle <b>Mio e seus amigos</b>, jogando <b>solo</b> ou <b>cooperativo</b> com até 4 jogadores.",
 		"desc-long-2":
