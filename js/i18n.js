@@ -255,50 +255,50 @@ const translations = {
 		"press-article-list-add-yours": "Chcesz dodać swoje?",
 		"press-article-list-add-yours-email": "Wyślij mi e-mail!",
 	},
-	// pt: {
-	// 	"language-name": "Português Brasileiro",
+	pt: {
+		"language-name": "Português Brasileiro",
 
-	// 	// "Wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
-	// 	"button-steam-wishlist": "🐛 Adicione à lista de desejos",
-	// 	"button-steam": "🐛 Steam",
-	// 	"button-itchio": "🏪 itch.io",
-	// 	"button-discord": "🎮 Discord",
-	// 	"button-twitter": "🐦 Twitter",
-	// 	"button-bluesky": "🦋 Bluesky",
-	// 	"button-instagram": "📷 Instagram",
-	// 	"button-github": "😺 GitHub",
-	// 	"button-press": "🗞️ Imprensa",
-	// 	"button-press-kit": "📰 Press kit",
-	// 	"button-email": "✉️ Email",
+		// "Wishlist" is a verb here, not a noun, as in "please wishlist on Steam"
+		"button-steam-wishlist": "🐛 Adicione à lista de desejos",
+		"button-steam": "🐛 Steam",
+		"button-itchio": "🏪 itch.io",
+		"button-discord": "🎮 Discord",
+		"button-twitter": "🐦 Twitter",
+		"button-bluesky": "🦋 Bluesky",
+		"button-instagram": "📷 Instagram",
+		"button-github": "😺 GitHub",
+		"button-press": "🗞️ Imprensa",
+		"button-press-kit": "📰 Press kit",
+		"button-email": "✉️ Email",
 
-	// 	// This will also be on the Steam page.
-	// 	"desc-1": "Bem-vindo/a ao Bugscraper.",
-	// 	"desc-2":
-	// 		"<b>Bugscraper</b> é um jogo de <b>tiro roguelike</b>, que pode ser jogado <b>solo</b> ou <b>co-op</b>. Suba por vários andares, enfrente diversos inimigos e alcance a sala do seu chefe tirano! Experimente armas diferentes, ganhe upgrades e atire em todo mundo para chegar ao topo!",
-	// 	"desc-long-1":
-	// 		"🐜 Controle <b>Mio e seus amigos</b>, jogando <b>solo</b> ou <b>cooperativo</b> com até 4 jogadores.",
-	// 	"desc-long-2":
-	// 		"🐛 Lute contra <b>cem ondas</b> de <b>inimigos furiosos</b> e <b>chefes exigentes</b>.",
-	// 	"desc-long-3":
-	// 		"🐝 Colecione <b>armas novas</b>, se <b>esbalde nos upgrades</b>, e se prepare pra lutar no próximo andar!",
-	// 	"desc-long-4":
-	// 		"🐞 <b>Chegue ao topo</b> do prédio e tire satisfação com o seu chefe!",
-	// 	// This one is only for Steam. It's at the top of the Steam page under the promo banner.
-	// 	"desc-short":
-	// 		"Bem-vindo/a ao Bugscraper. Nesse jogo de tiro roguelike solo ou co-op, lute contra vários andares de inimigos, chegue ao topo e tire satisfação com o seu chefe tirano.",
+		// This will also be on the Steam page.
+		"desc-1": "Bem-vindo/a ao Bugscraper.",
+		"desc-2":
+			"<b>Bugscraper</b> é um jogo de <b>tiro roguelike</b>, que pode ser jogado <b>solo</b> ou <b>co-op</b>. Suba por vários andares, enfrente diversos inimigos e alcance a sala do seu chefe tirano! Experimente armas diferentes, ganhe upgrades e atire em todo mundo para chegar ao topo!",
+		"desc-long-1":
+			"🐜 Controle <b>Mio e seus amigos</b>, jogando <b>solo</b> ou <b>cooperativo</b> com até 4 jogadores.",
+		"desc-long-2":
+			"🐛 Lute contra <b>cem ondas</b> de <b>inimigos furiosos</b> e <b>chefes exigentes</b>.",
+		"desc-long-3":
+			"🐝 Colecione <b>armas novas</b>, se <b>esbalde nos upgrades</b>, e se prepare pra lutar no próximo andar!",
+		"desc-long-4":
+			"🐞 <b>Chegue ao topo</b> do prédio e tire satisfação com o seu chefe!",
+		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
+		"desc-short":
+			"Bem-vindo/a ao Bugscraper. Nesse jogo de tiro roguelike solo ou co-op, lute contra vários andares de inimigos, chegue ao topo e tire satisfação com o seu chefe tirano.",
 
-	// 	"screenshot-title": "Screenshots",
+		"screenshot-title": "Screenshots",
 
-	// 	contact: "Contato:",
-	// 	"footer-source": "Código-fonte do site",
-	// 	"banner-author": "Arte do banner:",
+		contact: "Contato:",
+		"footer-source": "Código-fonte do site",
+		"banner-author": "Arte do banner:",
 
-	// 	"html-title-press": "Bugscraper · Imprensa",
-	// 	"press-title": "Imprensa",
-	// 	"press-article-list-title": "O que o pessoal está falando sobre o jogo",
-	// 	"press-article-list-add-yours": "Quer adicionar o seu?",
-	// 	"press-article-list-add-yours-email": "Mande um email!",
-	// },
+		"html-title-press": "Bugscraper · Imprensa",
+		"press-title": "Imprensa",
+		"press-article-list-title": "O que o pessoal está falando sobre o jogo",
+		"press-article-list-add-yours": "Quer adicionar o seu?",
+		"press-article-list-add-yours-email": "Mande um email!",
+	},
 };
 
 const defaultLocale = "en";
