@@ -64,7 +64,7 @@ const translations = {
 		"desc-2":
 			"<b>Bugscraper</b> est un <b>roguelike shooter solo ou coopératif</b>. En voie vers le bureau de votre patron tyrannique, vous ferez face à des vagues d'ennemis à chaque étage. À l'aide d'une multitude d'armes et une grande diversité d'améliorations, éliminez les et visez le sommet !",
 		"desc-long-1":
-			"🐜 Vous incarnerez <b>Mio et ses amis</b>, en <b>solo</b> ou en <b>multijoueur local coopératif</b> avec jusqu'à 4 joueurs.",
+			"🐜 Incarnez <b>Mio et ses amis</b>, en <b>solo</b> ou en <b>coop locale</b> avec jusqu'à 4 personnes.",
 		"desc-long-2":
 			"🐛 Faites face à une centaine de vagues <b>d'ennemis agressifs</b> et de <b>tenaces boss</b>.",
 		"desc-long-3":
@@ -272,7 +272,7 @@ const translations = {
 		"button-email": "✉️ Email",
 
 		// This will also be on the Steam page.
-		"desc-1": "Bem-vindo/a ao Bugscraper.",
+		"desc-1": "Boas-vindas ao Bugscraper.",
 		"desc-2":
 			"<b>Bugscraper</b> é um jogo de <b>tiro roguelike</b>, que pode ser jogado <b>solo</b> ou <b>co-op</b>. Suba por vários andares, enfrente diversos inimigos e alcance a sala do seu chefe tirano! Experimente armas diferentes, ganhe upgrades e atire em todo mundo para chegar ao topo!",
 		"desc-long-1":
@@ -285,7 +285,7 @@ const translations = {
 			"🐞 <b>Chegue ao topo</b> do prédio e tire satisfação com o seu chefe!",
 		// This one is only for Steam. It's at the top of the Steam page under the promo banner.
 		"desc-short":
-			"Bem-vindo/a ao Bugscraper. Nesse jogo de tiro roguelike solo ou co-op, lute contra vários andares de inimigos, chegue ao topo e tire satisfação com o seu chefe tirano.",
+			"Boas-vindas ao Bugscraper. Nesse jogo de tiro roguelike solo ou co-op, lute contra vários andares de inimigos, chegue ao topo e tire satisfação com o seu chefe tirano.",
 
 		"screenshot-title": "Screenshots",
 
